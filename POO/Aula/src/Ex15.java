@@ -30,7 +30,7 @@ public class Ex15 {
         }
 
         System.out.println("Quantidade de vogais: " + quantidadeVogais);
-        System.out.println("Quantidade de dígitos: " + quantidadeDigitos);
+        System.out.println("Quantidade de digitos: " + quantidadeDigitos);
         System.out.println("Quantidade de outros caracteres: " + quantidadeOutros);
 
         teclado.close();

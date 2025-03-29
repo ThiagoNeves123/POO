@@ -1,11 +1,10 @@
 public class Main {
     public static void main(String[] args) {
+        ContaBancaria conta = new ContaBancaria();
 
-        PlanoAssinatura plano = new PlanoAssinatura();
+        conta.depositar(40000);
+        conta.sacar(15000);
+        conta.exibirDados();
 
-        plano.AddAssinante();
-
-
-        System.out.println(plano.getTotal());
     }
 }
